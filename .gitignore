@@ -1,0 +1,12 @@
+# node.js dependencies
+node_modules/
+package-lock.json
+
+# environment variables
+.env
+
+# captcha
+captcha.png
+
+# batch scripts
+*.bat

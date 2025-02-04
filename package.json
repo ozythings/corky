@@ -1,0 +1,16 @@
+{
+  "name": "corky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "ozythings",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "keras": "^1.0.1",
+    "puppeteer": "^24.1.1"
+  }
+}
