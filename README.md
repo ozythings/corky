@@ -5,10 +5,11 @@ This project automates login and navigation for [Amasya University OBS](https://
 ## 🚀 Features
 - Opens the OBS login page.
 - Captures the CAPTCHA image.
-- Attempts to solve the CAPTCHA using Google.
+- Solves the CAPTCHA using OCR (Optical Character Recognition) with `chrome-lens-ocr`.
 - Logs in with credentials from `.env`.
 - Navigates to the "Ders Kayıt" section.
 - (WIP) Handles interaction with iframes.
+- Allows browser session to remain open with a timeout function.
 
 ## 🛠️ Setup
 
@@ -34,9 +35,10 @@ Execute the script with:
 node index.js
 ```
 
-## 🏗️ TODO
-- Properly handle CAPTCHA solving.
-- Interact with iframe content after navigation.
+This will start the automation process, opening the browser and logging you into the OBS system. It will also attempt to solve the CAPTCHA and navigate to the "Ders Kayıt" section.
+
+### 4. Stop the Browser from Closing
+By default, the browser will close after a timeout (30 seconds). To stop this from happening, enter `0` in the terminal.
 
 ## ⚠️ Disclaimer
 This script is for educational purposes only. Use responsibly and ensure compliance with the website's policies.
