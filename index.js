@@ -104,7 +104,7 @@ const run = async () => {
     timeoutClose = setTimeout(async () => {
       await browser.close();
       console.log("Browser closed after timeout.");
-    }, timeout / 2);
+    }, timeout * 0.8);
 
   } catch (error) {
     console.error("Error:", error);

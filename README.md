@@ -38,7 +38,7 @@ node index.js
 This will start the automation process, opening the browser and logging you into the OBS system. It will also attempt to solve the CAPTCHA and navigate to the "Ders Kayıt" section.
 
 ### 4. Stop the Browser from Closing
-By default, the browser will close after a timeout (30 seconds). To stop this from happening, enter `0` in the terminal.
+By default, the browser will close after a timeout (roughly 30 seconds, 30*0.8). To stop this from happening, enter `0` in the terminal.
 
 ## ⚠️ Disclaimer
 This script is for educational purposes only. Use responsibly and ensure compliance with the website's policies.
